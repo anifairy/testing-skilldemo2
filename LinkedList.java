@@ -41,7 +41,8 @@ public class LinkedList {
             if(n.next == null) {
             n.next = new Node(value, null);
             return;
-        }
+            }
+        }    
     }
     /**
      * @return the value of the first element in the list
