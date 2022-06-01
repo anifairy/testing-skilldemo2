@@ -41,7 +41,6 @@ public class LinkedList {
             if(n.next == null) {
             n.next = new Node(value, null);
             return;
-            }
         }
     }
     /**
